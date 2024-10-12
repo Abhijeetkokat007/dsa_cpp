@@ -98,6 +98,144 @@ int main() {
     return 0;
 }
 
+// print n odd number of sum
+#include <iostream>
+using namespace std ;
 
-// 1> For loop
+int main() {
+    int n = 20;
+    int i ;
+    int sum = 0 ;
+    while (i<= n){
+        if(i%2 != 0){
+            cout << i << endl;
+            sum = sum + i;
+        }
+        i++ ;
+    }
+    cout << "sum = " << sum << endl;
+    
 
+    return 0;
+}
+
+// 2> For loop
+
+#include <iostream>
+using namespace std;
+int main() {
+   
+   
+   for(num = 1; num <= 30; num++){
+       cout  << num <<endl;
+   }
+
+    return 0;
+}
+
+// print n odd number sum 
+#include <iostream>
+using namespace std ;
+
+int main() {
+    int n = 20;
+    int i ;
+    int sum = 0 ;
+    for(i=1; i<=n; i++){
+        if(i%2 != 0){
+            cout << i << endl;
+            sum = sum + i;
+        }
+    }
+    cout << "sum = " << sum << endl;
+    
+
+    return 0;
+}
+
+// sum of n number
+
+#include <iostream>
+using namespace std;
+int main() {
+   int n ;
+   int sum = 0 ;
+   int i ;
+   cout  << "Enter number"  <<endl;
+   cin >> n ;
+   
+   for(i=1; i <= n; i++){
+       cout  << i <<endl;
+       sum = sum + i ;
+   }
+   cout  << "Sum = " << sum <<endl;
+
+    return 0;
+}
+
+// 3> do While loop
+
+// print n number using do while loop
+#include <iostream>
+using namespace std ;
+
+int main() {
+    int n = 20;
+    int i= 1 ;
+   do{
+       cout << i <<endl ;
+       i++ ;
+   } while (i<=n);
+    return 0;
+}
+
+// Break keyword 
+
+#include <iostream>
+using namespace std;
+int main() {
+   int n ;
+   int sum = 0 ;
+   int i ;
+   cout  << "Enter number"  <<endl;
+   cin >> n ;
+   
+   for(i=1; i <= n; i++){
+       cout  << i <<endl;
+       sum = sum + i ;
+       if(i == 15){
+           break;
+       }
+   }
+
+   
+   
+
+   cout  << "Sum = " << sum <<endl;
+
+    return 0;
+}
+
+
+// print n number is prime or non prime
+
+#include <iostream>
+using namespace std ;
+
+int main() {
+    int n = 11;
+    bool isPrime = true ;
+   for( int i=2; i <=n-1; i++){
+       if(n%i == 0){
+           isPrime = false ;
+           break ;
+       }
+   }
+   if(isPrime == true){
+       cout << n << " =  Prime Number" <<endl;
+   }
+    if(isPrime == false){
+       cout << n << " = NonPrime Number" <<endl;
+   }
+    return 0;
+}
