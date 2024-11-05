@@ -3,6 +3,5 @@
 **Zero To Hero🚀**
 &&
 
-cpp
 
 
