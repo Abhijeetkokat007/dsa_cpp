@@ -1,5 +1,5 @@
 # DSA In C++
-## All DSA seri
+## All DSA series 
 
 
 
